@@ -57,15 +57,5 @@ npm start
 # Deployed Version
 Access the deployed version of the application here - https://phenomenal-faun-f9ca7d.netlify.app/
 
-# Customization
-
-- To modify the appearance of the application, you can update the CSS styles in the `WordFrequencyHistogram.css` file.
-
-- To change the source of the text file, you can modify the URL in the `fetchWordFrequency function` of the `WordFrequencyHistogram` component.
-
-# Contributing
-
-Contributions are welcome! If you find any issues or want to add new features, feel free to open a pull request.
-
 
 
