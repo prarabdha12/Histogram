@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  /* background-color: bisque; */
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  background-color: #041dfc;
+  color: #fff;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.chart {
+  margin-top: 10px;
+  text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.export-btn {
+  padding: 10px 20px;
+  background-color: #a72828;
+  color: #fff;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  align-items: center;
+}
+.title {
+  text-align: center;
+}
+
+
