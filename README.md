@@ -1,4 +1,4 @@
-# Word Frequency Histogram
+# Histogram (Chart / Word  Count)
 
 This is a React.js application that fetches the contents of a text file, calculates the frequency of occurrence of each word, and plots a histogram of the 20 most occurring words.
 
@@ -6,7 +6,7 @@ This is a React.js application that fetches the contents of a text file, calcula
 
 - Fetches the contents of https://www.terriblytinytales.com/test.txt
 - Parses the content and calculates the frequency of each word
-- Displays a histogram of the 20 most occurring words
+- Displays a histogram of the 20 most occurring words o X-axis
 - Provides an "Export" button to download a CSV file of the histogram data
 
 ## Technologies Used
@@ -39,19 +39,23 @@ npm start
 
 3. Click the "Submit" button to fetch the word frequency and display the histogram.
 
-![Screenshot 2023-05-15 022134](https://github.com/sudh-202/word-frequency-app/assets/87563365/78a2ecb9-3724-4103-850c-d8435721150b)
+![Screenshot 2023-05-15 220936](https://github.com/prarabdha12/word-frequency-app/assets/99959938/e5304fc6-23b6-440f-b742-a3f0af4b5c8a)
+
+
 
 4. The top 20 words with the highest occurrence will be plotted in the histogram chart.
 
-![Screenshot 2023-05-15 022151](https://github.com/sudh-202/word-frequency-app/assets/87563365/44e121ff-d399-40d5-a4c3-c53b2a197a2f)
+![dool](https://github.com/prarabdha12/word-frequency-app/assets/99959938/70687ded-309a-40e1-86b9-638b028cf161)
+
 
 
 5. Click the "Export" button to download a CSV file containing the histogram data.
 
-![Screenshot 2023-05-15 022405](https://github.com/sudh-202/word-frequency-app/assets/87563365/cb570927-504a-45f5-8cd9-0a57dab63b3c)
+![deadpool](https://github.com/prarabdha12/word-frequency-app/assets/99959938/e36e118b-94db-461f-a3e7-71b3001bfc9a)
+
 
 # Deployed Version
-Access the deployed version of the application here - https://word-frequency-histogram.netlify.app/
+Access the deployed version of the application here - https://phenomenal-faun-f9ca7d.netlify.app/
 
 # Customization
 
