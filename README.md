@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Word Frequency Histogram
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React.js application that fetches the contents of a text file, calculates the frequency of occurrence of each word, and plots a histogram of the 20 most occurring words.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Fetches the contents of https://www.terriblytinytales.com/test.txt
+- Parses the content and calculates the frequency of each word
+- Displays a histogram of the 20 most occurring words
+- Provides an "Export" button to download a CSV file of the histogram data
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React.js
+- Axios (for making HTTP requests)
+- Plotly.js (for plotting the histogram)
+- CSS (for styling)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+### 1. Clone the repository:
+```bash
+git clone <repository_url> && cd word-frequency-histogram
+```
+### 2. Navigate to the project directory:
+```bash
+cd word-frequency-histogram
+```
+### 3. Install the dependencies:
+```bash
+npm install
+```
+# Usage
+1. Start the development server:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm start
 
-### `npm run build`
+2. Open your browser and visit `http://localhost:3000` to access the application.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Click the "Submit" button to fetch the word frequency and display the histogram.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Screenshot 2023-05-15 022134](https://github.com/sudh-202/word-frequency-app/assets/87563365/78a2ecb9-3724-4103-850c-d8435721150b)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. The top 20 words with the highest occurrence will be plotted in the histogram chart.
 
-### `npm run eject`
+![Screenshot 2023-05-15 022151](https://github.com/sudh-202/word-frequency-app/assets/87563365/44e121ff-d399-40d5-a4c3-c53b2a197a2f)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. Click the "Export" button to download a CSV file containing the histogram data.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Screenshot 2023-05-15 022405](https://github.com/sudh-202/word-frequency-app/assets/87563365/cb570927-504a-45f5-8cd9-0a57dab63b3c)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Deployed Version
+Access the deployed version of the application here - https://word-frequency-histogram.netlify.app/
 
-## Learn More
+# Customization
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- To modify the appearance of the application, you can update the CSS styles in the `WordFrequencyHistogram.css` file.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- To change the source of the text file, you can modify the URL in the `fetchWordFrequency function` of the `WordFrequencyHistogram` component.
 
-### Code Splitting
+# Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions are welcome! If you find any issues or want to add new features, feel free to open a pull request.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
